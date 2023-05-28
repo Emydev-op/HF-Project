@@ -57,15 +57,28 @@ body {
     font-weight: 400;
 }
 
+
+/* Footer */
+.toltip {
+    text-decoration: none;
+}
+
 .footer-bg {
     background-color: #333333;
     color: white;
 }
 
+.socialz {
+    font-size: 23px;
+}
 
+.brn {
+    width: 86px;
+}
 
-/* Footer */
-
+.lg-sz {
+    width: 9rem;
+}
 
 @keyframes heros {
     0% {
