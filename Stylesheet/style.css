@@ -6,7 +6,7 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv4.JPG);
+    background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(./assets/hfyv4.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,12 +82,12 @@ body {
 
 @keyframes heros {
     0% {
-        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv5.JPG);
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(./assets/hfyv5.JPG);
     }
    50% {
-        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv4.JPG);
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(./assets/hfyv4.JPG);
    } 
    100% {
-        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv3.jpg);
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(./assets/hfyv3.jpg);
    }
 }
