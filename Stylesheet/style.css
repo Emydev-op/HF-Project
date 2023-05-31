@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-color: #fffdd0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv4.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: heros 20s infinite ease-in-out;
+}
+
+.btn-pri {
+    background-color: #BF4E03;
+    color: white;
+}
+
+.btn-sec {
+    background-color: #18A0FB;
+    color: white;
+}
+
+.sub-head {
+    color: #BF4E03;
+    font-weight: 600;
+}
+
+.gallery-bg {
+    background-color: #E4E4E4;
+}
+
+/* .hf-bg {
+    background-color: #fffdd0;
+} */
+
+.font-color {
+    color: #BF4E03;
+}
+
+.testi-comment {
+    padding: 1.4rem 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.testi-name {
+    padding: 0.8rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/* Footer */
+.toltip {
+    text-decoration: none;
+}
+
+.footer-bg {
+    background-color: #333333;
+    color: white;
+}
+
+.socialz {
+    font-size: 23px;
+}
+
+.brn {
+    width: 86px;
+}
+
+.lg-sz {
+    width: 9rem;
+}
+
+@keyframes heros {
+    0% {
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv5.JPG);
+    }
+   50% {
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv4.JPG);
+   } 
+   100% {
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv3.jpg);
+   }
+}
