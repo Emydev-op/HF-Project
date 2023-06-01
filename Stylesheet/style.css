@@ -82,7 +82,7 @@ body {
 
 @keyframes heros {
     0% {
-        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv1.jpg);
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(../assets/hfyv1.jpg);
     }
    50% {
         background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(/assets/hfyv3.jpg);
