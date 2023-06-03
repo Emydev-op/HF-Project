@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-color: #fffdd0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(../assets/hfyv4.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: heros 20s infinite ease-in-out;
+}
+
+/* Form */
+.brd {
+    border-radius: 1rem;
+}
+
+.fonts {
+    font-weight: 700;
+}
+
+/* Footer */
+.toltip {
+    text-decoration: none;
+}
+
+.footer-bg {
+    background-color: #333333;
+    color: white;
+}
+
+.socialz {
+    font-size: 23px;
+}
+
+.brn {
+    width: 86px;
+}
+
+.lg-sz {
+    width: 9rem;
+}
+
+@keyframes heros {
+    0% {
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(../assets/hfyv1.jpg);
+    }
+   50% {
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(../assets/hfyv3.jpg);
+   } 
+   100% {
+        background-image: linear-gradient(rgba(0, 60, 100, 0.84), rgba(0, 60, 100, 0.84)), url(../assets/hfyv2.jpg);
+   }
+}
