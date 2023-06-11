@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     box-sizing: border-box;
-    background-color: #fffdd0;
+    /* background-color: #fffdd0; */
 }
 
 .hero {
@@ -24,7 +24,7 @@ body {
 }
 
 .btn-sec {
-    background-color: #18A0FB;
+    background-color: #0d6efd;
     color: white;
 }
 

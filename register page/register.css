@@ -27,6 +27,10 @@ body {
     font-weight: 700;
 }
 
+.form-floating>label {
+    left: 0.5em;
+}
+
 /* Footer */
 .toltip {
     text-decoration: none;
@@ -34,6 +38,11 @@ body {
 
 .footer-bg {
     background-color: #333333;
+    color: white;
+}
+
+.btn-pri {
+    background-color: #BF4E03;
     color: white;
 }
 
