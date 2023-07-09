@@ -23,8 +23,18 @@ body {
     color: white;
 }
 
+.btn-pri:hover {
+    background-color: #ca611b;
+    color: white;
+}
+
 .btn-sec {
     background-color: #0d6efd;
+    color: white;
+}
+
+.btn-sec:hover {
+    background-color: #0b57ca;
     color: white;
 }
 
